@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Datasets & Logs
+Dataset/
+raw_data/
+logs/
+outputs/
+*.csv
+
+# Models
+# We use Git LFS for .pth files so they are tracked but safely uploaded bypassing GitHub's 100MB limit.
+

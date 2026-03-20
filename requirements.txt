@@ -1,0 +1,13 @@
+torch
+torchvision
+pandas
+matplotlib
+seaborn
+Pillow
+scikit-learn
+timm
+tqdm
+streamlit
+plotly
+jupyter
+ipykernel

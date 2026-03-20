@@ -8,6 +8,7 @@ __pycache__/
 env/
 venv/
 ENV/
+node_modules/
 
 # Jupyter
 .ipynb_checkpoints
@@ -19,6 +20,6 @@ logs/
 outputs/
 *.csv
 
-# Models
-# We use Git LFS for .pth files so they are tracked but safely uploaded bypassing GitHub's 100MB limit.
-
+# Models (GitHub has a 100MB file limit! We shouldn't push the actual weight files)
+models/*.pth
+models/*.pt
